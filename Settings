@@ -1,0 +1,201 @@
+{
+  // "workbench.colorTheme": "Monokai",
+  // "[python]": {
+  //   "editor.formatOnType": true
+  // },
+  // "editor.fontFamily": "Fira Code",
+  // "editor.fontLigatures": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.formatOnSave": true,
+  // "code-runner.runInTerminal": true,
+  // "explorer.confirmDragAndDrop": false,
+  // "json.schemas": [],
+  // "files.associations": {
+  //   "*.ejs": "html"
+  // },
+  // "emmet.includeLanguages": {
+  //   "ejs": "html"
+  // },
+  // "html.autoClosingTags": false,
+  // "boot-java.rewrite.reconcile": true,
+  // "editor.minimap.autohide": true,
+  // "workbench.iconTheme": "vscode-icons",
+  // "explorer.confirmDelete": false,
+  // "editor.formatOnPaste": true
+
+  // new config
+
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "workbench.enableExperiments": false,
+  "zenMode.fullScreen": false,
+  /**
+   * Startup, update & save
+   **/
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10000,
+  "launch": {},
+  "workbench.startupEditor": "welcomePage",
+  /**
+   * Font
+   **/
+  // "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "IBM Plex Mono",
+  "apc.font.family": "IBM Plex Mono",
+  "editor.fontSize": 15,
+  "terminal.integrated.fontSize": 14,
+  /**
+   * Editor appearance
+   **/
+  "breadcrumbs.enabled": false,
+  "diffEditor.wordWrap": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "explorer.compactFolders": false,
+  "editor.cursorStyle": "line-thin",
+  "editor.folding": true,
+  "editor.glyphMargin": true,
+  "editor.lineNumbers": "on",
+  "editor.matchBrackets": "never",
+  "editor.minimap.maxColumn": 400,
+  "editor.minimap.renderCharacters": false,
+  "editor.overviewRulerBorder": true,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
+  "window.autoDetectColorScheme": true,
+  "window.titleBarStyle": "native",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#c7c8c92d",
+    "editor.lineHighlightBorder": "#f7f7f71f"
+  },
+  "workbench.commandPalette.history": 10,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": true,
+  /**
+   * Editor behaviour
+   **/
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.dragAndDrop": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.suggest.localityBonus": true,
+  "editor.suggest.preview": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.suppressSuggestions": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  /**
+   * Find
+   **/
+  "search.exclude": {
+    "**/build": true,
+    "**/composer.lock": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true
+  },
+  "search.useIgnoreFiles": false,
+  /**
+   * Formatting & Linting
+   **/
+  "editor.tabSize": 3,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  /**
+   * Extensions
+   **/
+  "apc.activityBar": {
+    "position": "top",
+    "hideSettings": true,
+    "size": 37
+  },
+  "apc.stylesheet": {
+    ".title.show-file-icons": "-webkit-app-region: drag",
+    ".title-actions": "-webkit-app-region: no-drag"
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 10,
+      "y": 8
+    }
+  },
+  "apc.header": {
+    "height": 36,
+    "fontSize": 14
+  },
+  "apc.listRow": {
+    "height": 21,
+    "fontSize": 13
+  },
+  "files.exclude": {
+    "**/.open-next": true,
+    "**/.sst": true,
+    "**/.nx": true,
+    "**/.turbo": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/.husky": true,
+    "**/.github": true,
+    "**/.gitignore": true,
+    "**/dist": true,
+    "**/.next": true,
+    "**/*.tsbuildinfo": true,
+    "**/.astro": true
+  },
+  "extensions.ignoreRecommendations": true,
+  "branchwarnings.protectedBranches": [
+    "deploy",
+    "main",
+    "master",
+    "prod",
+    "development"
+  ],
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.enabledDiagnosticLevels": ["error", "info", "hint", "warning"],
+  "indenticator.hover.peekBack": 0,
+  "indenticator.inner.showIndentGuide": true,
+  "indenticator.showCurrentDepthInStatusBar": false,
+  "indenticator.showIndentGuide": false,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "chat.editor.fontSize": 14,
+  "git.autofetch": true,
+  "window.commandCenter": false,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "GitHub Dark",
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": -1,
+  "editor.defaultFoldingRangeProvider": "vscjava.vscode-maven",
+  "workbench.layoutControl.enabled": false
+}
